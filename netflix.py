@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 import codecs
 
+# armando Cerda de la rosa 
+# a01570376
 @st.cache
 def load_data(nrows):
     doc = codecs.open('movies.csv','rU','latin1')
